@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1920</width>
+    <height>1080</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QHBoxLayout" name="horizontalLayout">
+    <item>
+     <widget class="QFrame" name="mainContentFrame">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::Shape::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Shadow::Raised</enum>
+      </property>
+      <layout class="QGridLayout" name="gridLayout">
+       <item row="2" column="0">
+        <widget class="QLabel" name="mainContentLabel">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>400</width>
+           <height>50</height>
+          </size>
+         </property>
+         <property name="text">
+          <string>Wilkommen in Meinem Abschlussprojekt</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignHCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="0">
+        <widget class="QLabel" name="breadcrumplabel">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="minimumSize">
+          <size>
+           <width>30</width>
+           <height>0</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>16777215</width>
+           <height>30</height>
+          </size>
+         </property>
+         <property name="text">
+          <string>🏠 Startseite</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1920</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menu_Analysen">
+    <property name="title">
+     <string>📊 Analysen</string>
+    </property>
+   </widget>
+   <widget class="QMenu" name="menu_Vergleich">
+    <property name="title">
+     <string>📈 Vergleich</string>
+    </property>
+   </widget>
+   <widget class="QMenu" name="menu_Import">
+    <property name="title">
+     <string>📥 Import</string>
+    </property>
+   </widget>
+   <widget class="QMenu" name="menu_Export">
+    <property name="title">
+     <string>📤 Export</string>
+    </property>
+   </widget>
+   <widget class="QMenu" name="menu_Einstellungen">
+    <property name="title">
+     <string>⚙️ Einstellungen</string>
+    </property>
+   </widget>
+   <widget class="QMenu" name="menu_Themes">
+    <property name="title">
+     <string>🎨 Themes</string>
+    </property>
+   </widget>
+   <widget class="QMenu" name="menu_Dashboard">
+    <property name="title">
+     <string>🏠 Dashboard</string>
+    </property>
+   </widget>
+   <addaction name="menu_Dashboard"/>
+   <addaction name="menu_Analysen"/>
+   <addaction name="menu_Vergleich"/>
+   <addaction name="menu_Import"/>
+   <addaction name="menu_Export"/>
+   <addaction name="menu_Einstellungen"/>
+   <addaction name="menu_Themes"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,4 @@
+{
+    "admin": ["Dashboard", "Analysen", "Vergleich", "Import", "Export", "Einstellungen", "Themes", "Benutzerverwaltung"],
+    "user": ["Dashboard", "Vergleich"]
+}
